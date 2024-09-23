@@ -1,0 +1,1521 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+@media (min-width: 425px) {
+  .main-container {
+    overflow: hidden;
+  }
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+
+  .main-container {
+    position: relative;
+    width: 425px;
+    height: 2748px;
+    margin: 0 auto;
+    font-size: 0px;
+    background: #ffffff;
+    overflow: hidden;
+    background: transparent;
+  }
+  .pilih-kru-anda {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 374px;
+    height: 47px;
+    margin: 46px 0 0 26px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .zoro-card {
+    position: relative;
+    width: 288.528px;
+    height: 221px;
+    margin: 415px 0 0 69px;
+    background: #e1ffdc;
+    z-index: 2;
+    overflow: visible auto;
+    border-radius: 20px;
+  }
+  .zoro {
+    position: relative;
+    width: 275px;
+    height: 217px;
+    margin: 4px 0 0 6px;
+    background: url("assets/zoro\ 1.svg")
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+    overflow: visible auto;
+  }
+  .zoro-button {
+    position: relative;
+    width: 212.406px;
+    height: 45.428px;
+    margin: 161.75px 0 0 32.061px;
+    cursor: pointer;
+    background: #7eb782;
+    border: none;
+    z-index: 4;
+    border-radius: 15px;
+    transition: 0.3s ease-in;
+}
+.zoro-button:hover{
+  transform: scale(1.02);
+  transition: 0.3s ease-in;
+  color: #000000;
+}
+  .pilih-saya-zoro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 139.967px;
+    height: 33.15px;
+    top: 6.139px;
+    left: 35.605px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .luffy {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    top: 118px;
+    left: 93px;
+    background: url("assets/luffy.svg") transparent;
+    z-index: 34;
+}
+  .luffy-card {
+    position: absolute;
+    width: 289px;
+    height: 299px;
+    top: 180px;
+    left: 69px;
+    background: #fff3db;
+    z-index: 33;
+    border-radius: 20px;
+  }
+  .luffy-button {
+    position: relative;
+    width: 212.406px;
+    height: 45.428px;
+    margin: 165.75px 0 0 38.061px;
+    cursor: pointer;
+    background: #e29a00;
+    border: none;
+    z-index: 35;
+    border-radius: 15px;
+    transition: 0.3s ease-in;
+}
+.luffy-button:hover{
+  transform: scale(1.02);
+  transition: 0.3s ease-in;
+  color: #000000;
+}
+  .pilih-saya-luffy {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 139.967px;
+    height: 33.15px;
+    top: 6.139px;
+    left: 35.605px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 36;
+  }
+  .monkey-d-luffy {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 182px;
+    height: 47px;
+    margin: 8.822px 0 0 53px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 37;
+  }
+  .si-topi-jerami {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 169px;
+    height: 21px;
+    margin: -10px 0 0 59px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 38;
+  }
+  .nami-card {
+    position: absolute;
+    width: 289px;
+    height: 239.855px;
+    top: 758px;
+    left: 68px;
+    background: #ffced6;
+    z-index: 48;
+    border-radius: 20px;
+  }
+  .nami {
+    position: relative;
+    width: 275px;
+    height: 213px;
+    margin: 27px 0 0 7px;
+    background: url("assets/nami\ 1.svg")
+      no-repeat center;
+    background-size: cover;
+    z-index: 49;
+    overflow: visible auto;
+  }
+  .nami-button {
+    position: relative;
+    width: 212.753px;
+    height: 49.304px;
+    margin: 152.891px 0 0 31.123px;
+    cursor: pointer;
+    background: #ff5572;
+    border: none;
+    z-index: 50;
+    border-radius: 15px;
+    transition: 0.3s ease-in;
+}
+.nami-button:hover{
+  transform: scale(1.02);
+  transition: 0.3s ease-in;
+  color: #000000;
+}
+  .pilih-saya-nami {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 140.196px;
+    height: 35.978px;
+    top: 7.109px;
+    left: 36.877px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 51;
+  }
+  .nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: #d9d9d9;
+    z-index: 53;
+  }
+    .tentang-kami {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 107px;
+    height: 21px;
+    top: 20px;
+    left: 44px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 56;
+    text-decoration: none;
+    }
+    .contact-us {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 81px;
+    height: 21px;
+    top: 20px;
+    left: 276px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 55;
+    text-decoration: none;
+    }
+    .beranda {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 70px;
+    height: 21px;
+    top: 20px;
+    left: 176px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 54;
+    text-decoration: none;
+    }
+  .sanji-card {
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    top: 1035px;
+    left: 75px;
+    background: url(assets/sanji\ 3.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 42;
+  }
+  .sanji {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 11px;
+    left: 22px;
+    z-index: 41;
+  }
+  .sanji-button {
+    position: absolute;
+    width: 212.406px;
+    height: 45.428px;
+    top: 224.75px;
+    left: 31.061px;
+    cursor: pointer;
+    background: #3279af;
+    border: none;
+    z-index: 43;
+    border-radius: 15px;
+    transition: 0.3s ease-in;
+}
+  .sanji-button:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in;
+    color: #000000;
+  }
+  }
+  .pilih-saya-sanji {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 139.967px;
+    height: 33.15px;
+    top: 6.139px;
+    left: 35.605px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 44;
+  }
+  .sanji-plus {
+    position: absolute;
+    width: 289px;
+    height: 314px;
+    top: 1094px;
+    left: 68px;
+    font-size: 0px;
+    background: #e2f2ff;
+    z-index: 40;
+    border-radius: 20px;
+  }
+  .span-sanji {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 133px;
+    height: 47px;
+    margin: 220px 0 0 78px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 45;
+  }
+  .span-sanji-adalah-kru {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 169px;
+    height: 21px;
+    margin: -10px 0 0 59px;
+    color: #000000;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    white-space: pre-wrap;
+    z-index: 46;
+  }
+  .god_usopp-card {
+    position: absolute;
+    width: 241px;
+    height: 245px;
+    top: 1436px;
+    left: 92px;
+    background: url("assets/god_usopp\ 2.svg")
+      no-repeat center;
+    background-size: cover;
+    z-index: 8;
+  }
+  .usopp-button {
+    position: relative;
+    width: 212.406px;
+    height: 45.428px;
+    margin: 171.75px 0 0 14.061px;
+    cursor: pointer;
+    background: #cac8b3;
+    border: none;
+    z-index: 9;
+    border-radius: 15px;
+    transition: 0.3s ease-in;
+  }
+  .usopp-button:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in;
+    color: #000000;
+  }
+  .pilih-saya-usopp {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 139.967px;
+    height: 33.15px;
+    top: 6.139px;
+    left: 35.605px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .usopp-back {
+    position: absolute;
+    width: 288.528px;
+    height: 221px;
+    top: 1442px;
+    left: 68px;
+    background: #e8e8e1;
+    z-index: 7;
+    border-radius: 20px;
+  }
+  .chopper-card {
+    position: absolute;
+    width: 216px;
+    height: 240px;
+    top: 1693px;
+    left: 104px;
+    background: url(assets/chopper\ 2.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 29;
+  }
+  .chopper-button {
+    position: relative;
+    width: 212.406px;
+    height: 45.428px;
+    margin: 171.75px 0 0 2.061px;
+    cursor: pointer;
+    background: #cac8b3;
+    border: none;
+    z-index: 30;
+    border-radius: 15px;
+    transition: 0.3s ease-in;
+}
+.chopper-button:hover{
+  transform: scale(1.02);
+  transition: 0.3s ease-in;
+  color: #000000;
+}
+  .pilih-saya-chopper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 139.967px;
+    height: 33.15px;
+    top: 6.139px;
+    left: 35.605px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 31;
+  }
+  .chopper-back {
+    position: absolute;
+    width: 288.528px;
+    height: 221px;
+    top: 1699px;
+    left: 68px;
+    background: #e8e8e1;
+    z-index: 28;
+    border-radius: 20px;
+  }
+  .robin-card {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    top: 1953px;
+    left: 98px;
+    background: url(assets/robin\ 2.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 24;
+  }
+  .robin {
+    position: relative;
+    width: 213px;
+    height: 213px;
+    margin: 12px 0 0 7px;
+    z-index: 23;
+  }
+  .robin-button {
+    position: relative;
+    width: 212.406px;
+    height: 45.428px;
+    margin: 155.75px 0 0 1.061px;
+    cursor: pointer;
+    background: #cac8b3;
+    border: none;
+    z-index: 25;
+    border-radius: 15px;
+    transition: 0.3s ease-in;
+}
+.robin-button:hover{
+  transform: scale(1.02);
+  transition: 0.3s ease-in;
+  color: #000000;
+}
+  .pilih-saya-robin {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 139.967px;
+    height: 33.15px;
+    top: 6.139px;
+    left: 35.605px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 26;
+  }
+  .robin-back {
+    position: absolute;
+    width: 288.528px;
+    height: 221px;
+    top: 1955px;
+    left: 68px;
+    background: #e8e8e1;
+    z-index: 3;
+    border-radius: 20px;
+  }
+  .brook-card {
+    position: absolute;
+    width: 288.53px;
+    height: 221px;
+    top: 2212px;
+    left: 69px;
+    background: #ffdbc4;
+    z-index: 1;
+    border-radius: 20px;
+    appearance: 100%;
+}
+
+  .brook {
+    position: absolute;
+    width: 200px;
+    height: 222px;
+    top: 2216px;
+    left: 112px;
+    background: url(assets/brook\ 2.svg) no-repeat center;
+    background-size: cover;
+    z-index: 2;
+}
+
+.brook-button {
+    position: relative;
+    width: 212.406px;
+    height: 45.428px;
+    margin: 165.75px 0 0 0px;
+    cursor: pointer;
+    background: #e36415;
+    border: none;
+    z-index: 3; /* Pastikan z-index lebih tinggi dari gambar */
+    border-radius: 15px;
+    transition: 0.3s ease-in;
+}
+.brook-button:hover{
+  transform: scale(1.02);
+  transition: 0.3s ease-in;
+  color: #000000;
+}
+
+.pilih-saya-brook {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 139.967px;
+    height: 33.15px;
+    top: 6.139px;
+    left: 35.605px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 4; /* Pastikan z-index lebih tinggi dari gambar */
+}
+  .jinbe-card {
+    position: absolute;
+    width: 288.528px;
+    height: 221px;
+    top: 2469px;
+    left: 68px;
+    background: #8fc4ec;
+    z-index: 12;
+    border-radius: 20px;
+  }
+  .jinbe {
+    position: absolute;
+    width: 240px;
+    height: 225px;
+    top: 2479px;
+    left: 93px;
+    background: url(assets/jinbe\ 2.svg)
+      no-repeat center;
+    background-size: cover;
+    z-index: 13;
+  }
+  .jinbe-button {
+    position: relative;
+    width: 212.406px;
+    height: 45.428px;
+    margin: 155.75px 0 0 13.061px;
+    cursor: pointer;
+    background: #275e87;
+    border: none;
+    z-index: 14;
+    border-radius: 15px;
+    transition: 0.3s ease-in;
+}
+.jinbe-button:hover{
+  transform: scale(1.02);
+  transition: 0.3s ease-in;
+  color: #000000;
+}
+  .pilih-saya-jinbe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 139.967px;
+    height: 33.15px;
+    top: 6.139px;
+    left: 35.605px;
+    color: #ffffff;
+    font-family: Poppins, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 15;
+  }
+
+  @media (min-width: 1280px) {
+    .main-container {
+      overflow: hidden;
+      }
+      
+      .main-container,
+      .main-container * {
+      box-sizing: border-box;
+      }
+      
+      input,
+      select,
+      textarea,
+      button {
+      outline: 0;
+      }
+      
+      .main-container {
+      position: relative;
+      width: 1280px;
+      height: 879px;
+      margin: 0 auto;
+      background: #ffffff;
+      overflow: auto;
+      }
+      .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background: #d9d9d9;
+        z-index: 66;
+      }
+        .beranda {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: absolute;
+        width: 119px;
+        height: 28px;
+        top: 11px;
+        left: 580px;
+        color: #000000;
+        font-family: Poppins, var(--default-font-family);
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22.5px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 64;
+        }
+        .contact-us {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: absolute;
+        width: 119px;
+        height: 28px;
+        top: 11px;
+        left: 699px;
+        color: #000000;
+        font-family: Poppins, var(--default-font-family);
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22.5px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 65;
+        }
+        .tentang-kami {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: absolute;
+        width: 119px;
+        height: 28px;
+        top: 11px;
+        left: 461px;
+        color: #000000;
+        font-family: Poppins, var(--default-font-family);
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22.5px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 66;
+        }
+      .pilih-kru-anda {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        top: -80px;
+        left: -120px;
+        width: 374px;
+        height: 60px;
+        margin: 33px 0 0 453px;
+        color: #000000;
+        font-family: Poppins, var(--default-font-family);
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 61;
+        }
+      .desktop {
+        position: absolute;
+        width: 1029px;
+        height: 669px;
+        top: 141px;
+        margin: -2px 0 0 120px;
+        z-index: 39;
+        }
+      .luffy {
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        top: 0;
+        left: 0;
+        background: url(assets/luffy.svg)
+          no-repeat center;
+        background-size: cover;
+        z-index: 4;
+        }
+      .luffy-card {
+        position: absolute;
+        width: 490px;
+        height: 180px;
+        top: 50px;
+        left: 11px;
+        font-size: 0px;
+        background: #fff3db;
+        z-index: 3;
+        border-radius: 20px;
+        }
+      .luffy-button {
+        position: relative;
+        width: 240px;
+        height: 37px;
+        margin: 42px 0 0 216px;
+        top: 85px;
+        cursor: pointer;
+        background: #e29a00;
+        border: none;
+        z-index: 5;
+        border-radius: 15px;
+        transition: 0.3s ease-in;
+        }
+        .luffy-button:hover{
+          transform: scale(1.02);
+          transition: 0.3s ease-in;
+          color: #000000;
+        }
+      .pilih-saya-luffy {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: absolute;
+        width: 114px;
+        height: 27px;
+        top: 5px;
+        left: 63px;
+        color: #ffffff;
+        font-family: Poppins, var(--default-font-family);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 63;
+        }
+      .monkey-d-luffy {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+        width: 263px;
+        height: 47px;
+        top: -78px;
+        margin: 11px 0 0 204px;
+        color: #000000;
+        font-family: Poppins, var(--default-font-family);
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 47px;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 6;
+        }
+        .si-topi-jerami {
+        display: block;
+        position: relative;
+        height: 21px;
+        margin: 3px 0 0 216px;
+        top: -79px;
+        color: #000000;
+        font-family: Poppins, var(--default-font-family);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        text-align: left;
+        white-space: nowrap;
+        z-index: 7;
+        }
+        .frame-kru {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          flex-wrap: nowrap;
+          gap: 10px;
+          position: absolute;
+          width: 500px;
+          height: 392px;
+          top: 50px;
+          left: 529px;
+          z-index: 39;
+          }
+        .frame-kru-2 {
+          flex-shrink: 0;
+          position: relative;
+          width: 500px;
+          height: 392px;
+          z-index: 40;
+          }
+        .real-frame {
+          position: absolute;
+          width: 500px;
+          height: 392px;
+          top: 0;
+          left: 0;
+          background: #f4f4f4;
+          z-index: 41;
+          border-radius: 20px;
+          }
+        .next-frame {
+          flex-shrink: 0;
+          position: absolute;
+          width: 503px;
+          height: 392px;
+          top: 0;
+          left: 0;
+          z-index: 42;
+          }
+        .group {
+          position: relative;
+          width: 423px;
+          height: 96px;
+          margin: 34px 0 0 40px;
+          z-index: 43;
+          }
+        .bg-usopp {
+          position: absolute;
+          width: 423px;
+          height: 96px;
+          top: 0;
+          left: 0;
+          background: #ffffff;
+          border: 1px solid #d8d6c1;
+          z-index: 44;
+          border-radius: 20px;
+          }
+        .god_usopp-card {
+          position: absolute;
+          width: 70px;
+          height: 70px;
+          top: 18px;
+          left: 12px;
+          background: url(assets/god_usopp\ 2.svg)
+            no-repeat center;
+          background-size: cover;
+          z-index: 50;
+          }
+        .name-usopp {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          position: absolute;
+          height: 30px;
+          top: 26px;
+          left: 92px;
+          color: #000000;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 30px;
+          text-align: left;
+          white-space: nowrap;
+          z-index: 48;
+          }
+        .usopp-button {
+          position: absolute;
+          width: 149px;
+          height: 22px;
+          top: -125px;
+          left: 63px;
+          cursor: pointer;
+          background: #d8d6c1;
+          border: none;
+          z-index: 46;
+          border-radius: 10px;
+          }
+          .pilih-saya-usopp {
+          display: absolute;
+          align-items: flex-start;
+          justify-content: center;
+          position: absolute;
+          width: 100px;
+          height: 16px;
+          top: 1.5px;
+          left: 23px;
+          color: #ffffff;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 16px;
+          text-align: center;
+          white-space: nowrap;
+          z-index: 47;
+          }
+          .frame-chopper {
+          position: relative;
+          width: 423px;
+          height: 96px;
+          margin: 18px 0 0 40px;
+          z-index: 49;
+          }
+          .bg-chopper {
+          position: absolute;
+          width: 423px;
+          height: 96px;
+          top: 112px;
+          left:-40px;
+          background: #ffffff;
+          border: 1px solid #d8d6c1;
+          z-index: 50;
+          border-radius: 20px;
+          }
+          .chopper-card {
+          position: absolute;
+          width: 70px;
+          height: 79px;
+          top: 120px;
+          left: -30px;
+          background: url(assets/chopper\ 2.svg)
+            no-repeat center;
+          background-size: cover;
+          z-index: 54;
+          }
+          .chopper-name {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          position: absolute;
+          height: 30px;
+          top: 139px;
+          left: 50px;
+          color: #000000;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 30px;
+          text-align: left;
+          white-space: nowrap;
+          z-index: 51;
+          }
+          .chopper-button {
+          position: absolute;
+          width: 149px;
+          height: 22px;
+          top: -115px;
+          left: 80px;
+          cursor: pointer;
+          background: #d8d6c1;
+          border: none;
+          z-index: 65;
+          border-radius: 10px;
+          transition: 0.3s ease-in;
+          }
+          .frame-chopper .chopper-button:hover {
+            transform: scale(1.02);
+            transition: 0.3s ease-in;
+            color: #000000;
+            z-index: 61; 
+        }
+          .pilih-saya-chopper {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          position: absolute;
+          width: 100px;
+          height: 16px;
+          top: 3px;
+          left: 25px;
+          color: #ffffff;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 16px;
+          text-align: center;
+          z-index: 80;
+          }
+          .frame-robin {
+          position: relative;
+          width: 423px;
+          height: 96px;
+          margin: 18px 0 0 40px;
+          z-index: 55;
+          }
+          .bg-robin {
+          position: absolute;
+          width: 423px;
+          height: 96px;
+          top: 112px;
+          left: -40px;
+          background: #ffffff;
+          border: 1px solid #d8d6c1;
+          z-index: 56;
+          border-radius: 20px;
+          }
+          .robin-card {
+          position: absolute;
+          width: 70px;
+          height: 70px;
+          top: 125px;
+          left: -30px;
+          background: url(assets/robin\ 2.svg)
+            no-repeat center;
+          background-size: cover;
+          z-index: 60;
+          }
+          .robin-name {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          position: absolute;
+          height: 30px;
+          top: 139px;
+          left: 50px;
+          color: #000000;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 30px;
+          text-align: left;
+          white-space: nowrap;
+          z-index: 65;
+          }
+          .robin-button {
+          position: absolute;
+          width: 149px;
+          height: 22px;
+          top: -115px;
+          left: 70px;
+          cursor: pointer;
+          background: #d8d6c1;
+          border: none;
+          z-index: 58;
+          border-radius: 10px;
+          }
+          .pilih-saya-robin {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          position: absolute;
+          width: 100px;
+          height: 16px;
+          top: 3px;
+          left: 25px;
+          color: #ffffff;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 16px;
+          text-align: center;
+          white-space: nowrap;
+          z-index: 70;
+          }
+          .zoro-card {
+            position: relative;
+            margin: 0px 0 0 0px;
+            width: 235px;
+            height: 182px;
+            top: 165px;
+            left: 10px;
+            background: #e1ffdb;
+            z-index: 9;
+            border-radius: 20px;
+            overflow: hidden;
+            }
+            .zoro {
+            width: 239px;
+            height: 178px;
+            margin:0px 0 0 0px;
+            flex-shrink: 0;
+            top: 3px;
+            background: url(assets/zoro\ 1.svg) no-repeat;
+            background-size: cover;
+            z-index: 15;
+            position: absolute;
+            }
+            .zoro-button {
+            position: absolute;
+            margin: 0px 0 0 0px;
+            width: 173px;
+            height: 37px;
+            top: 130px;
+            left: 35px;
+            margin: 0px 0 0 0px;
+            background: #7eb782;
+            border: none;
+            z-index: 11;
+            border-radius: 15px;
+            }
+            .pilih-saya-zoro {
+            display: flex;
+            margin: 0px 0 0 0px;
+            align-items: flex-start;
+            justify-content: center;
+            position: absolute;
+            width: 114px;
+            height: 27px;
+            top: 5px;
+            left: 29px;
+            color: #ffffff;
+            font-family: Poppins, var(--default-font-family);
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 27px;
+            text-align: center;
+            white-space: nowrap;
+            z-index: 12;
+            }
+
+          .sanji-plus {
+          position: absolute;
+          width: 230px;
+          height: 392px;
+          top: 258px;
+          left: 272px;
+          background: #e2f2ff;
+          z-index: 32;
+          border-radius: 20px;
+          }
+          .sanji-card {
+          position: relative;
+          width: 200px;
+          height: 200px;
+          top: -5px;
+          left: 290px;
+          margin: 0px 0 0 0px;
+          background: url(assets/sanji\ 3.svg)
+            no-repeat center;
+          background-size: cover;
+          z-index: 35;
+          }
+          .span-sanji {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          position: relative;
+          width: 133px;
+          height: 30px;
+          margin: 1px 0 0 48px;
+          top: 208px;
+          color: #000000;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 30px;
+          text-align: center;
+          white-space: nowrap;
+          z-index: 33;
+          }
+          .span-sanji-adalah-kru {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          position: relative;
+          width: 133px;
+          height: 54px;
+          top: 210px;
+          margin: 10px 0 0 48px;
+          color: #000000;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 18px;
+          text-align: center;
+          z-index: 34;
+          white-space: pre-wrap;
+          }
+          .sanji-button {
+          position: relative;
+          width: 173px;
+          height: 37px;
+          top: 290px;
+          left: -18px;
+          margin: 16px 0 0 28px;
+          background: #3279af;
+          z-index: 37;
+          border-radius: 15px;
+          }
+          .pilih-saya-sanji {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          position: absolute;
+          width: 114px;
+          height: 27px;
+          top: 5px;
+          left: 30px;
+          color: #ffffff;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 27px;
+          text-align: center;
+          white-space: nowrap;
+          z-index: 38;
+          }
+          .nami {
+            position: absolute;
+            width: 238px;
+            height: 184px;
+            top: -32px;
+            left: -7.5px;
+            background: url(assets/nami\ 1.svg) no-repeat center;
+            background-size: cover;
+            z-index: 15;
+            overflow: hidden;
+        }
+          .nami-card {
+          position: absolute;
+          width: 235px;
+          height: 180px;
+          top: 470px;
+          left: 10px;
+          background: #ffced6;
+          z-index: 10;
+          overflow: hidden;
+          border-radius: 20px;
+          }
+          .nami-button {
+          position: absolute;
+          width: 173px;
+          height: 37px;
+          margin: 135px 0 0 31px;
+          background: #ff5572;
+          border: none;
+          z-index: 16;
+          border-radius: 15px;
+          }
+          .pilih-saya-nami {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          position: absolute;
+          width: 114px;
+          height: 27px;
+          top: 5px;
+          left: 29px;
+          color: #ffffff;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 27px;
+          text-align: center;
+          white-space: nowrap;
+          z-index: 17;
+          }
+          .mad-kru-frame {
+          position: absolute;
+          width: 500px;
+          height: 180px;
+          top: 385px;
+          left: -40px;
+          background: #f1f1f1;
+          z-index: 19;
+          border-radius: 20px;
+          }
+          .brook {
+          position: absolute;
+          width: 120px;
+          height: 134px;
+          top: 31px;
+          left: 6px;
+          background: url(assets/brook\ 2.svg)
+            no-repeat center;
+          background-size: cover;
+          z-index: 24;
+          }
+          .jinbe {
+          position: absolute;
+          width: 124px;
+          height: 117px;
+          top: 48px;
+          left: 244px;
+          background: url(assets/jinbe\ 2.svg)
+            no-repeat center;
+          background-size: cover;
+          z-index: 29;
+          }
+          .brook-name {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          position: absolute;
+          height: 23px;
+          top: 35px;
+          left: 118px;
+          color: #000000;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 22.5px;
+          text-align: left;
+          white-space: nowrap;
+          z-index: 40;
+          }
+          .jinbe-name {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          position: absolute;
+          height: 23px;
+          top: 20px;
+          left: 140px;
+          color: #000000;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 22.5px;
+          text-align: left;
+          white-space: nowrap;
+          z-index: 40;
+          }
+          .brook-button {
+          position: absolute;
+          width: 100px;
+          height: 55px;
+          top: -100px;
+          left: 115px;
+          cursor: pointer;
+          background: #d8d6c1;
+          border: none;
+          z-index: 50;
+          border-radius: 10px;
+          }
+          .jinbe-button {
+          position: absolute;
+          width: 100px;
+          height: 55px;
+          top: -105px;
+          left: 125px;
+          cursor: pointer;
+          background: #d8d6c1;
+          border: none;
+          z-index: 60;
+          border-radius: 10px;
+          }
+          .pilih-saya-brook {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          position: absolute;
+          width: 100px;
+          height: 27px;
+          top: 15px;
+          left: 0;
+          color: #ffffff;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 22.5px;
+          text-align: center;
+          white-space: nowrap;
+          z-index: 28;
+          }
+          .pilih-saya-jinbe {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          position: absolute;
+          width: 100px;
+          height: 27px;
+          top: 15px;
+          left: 0px;
+          color: #ffffff;
+          font-family: Poppins, var(--default-font-family);
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 22.5px;
+          text-align: center;
+          white-space: nowrap;
+          z-index: 50;
+          }        
+        .usopp-back{
+          display: none;
+        }
+        .chopper-back{
+          display: none;
+        }
+        .robin-back{
+          display: none;
+        }
+        .jinbe-card{
+          display: none;
+        }
+        .brook-card{
+          display: none;
+        }
+}
